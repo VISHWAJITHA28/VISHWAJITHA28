@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" width="400" height="370" role="img" aria-label="Language radar: Python 95, SQL 80, Java 72, TypeScript 68, HTML and CSS 62">
+  <title>Language proficiency</title>
+
+  <defs>
+    <linearGradient id="lfill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.26"/>
+    </linearGradient>
+    <style>
+      .grid  { fill: none; stroke: #8b949e; stroke-opacity: .32; stroke-width: 1 }
+      .spoke { stroke: #8b949e; stroke-opacity: .26; stroke-width: 1 }
+      .lbl   { font: 600 12px ui-monospace, "SF Mono", Menlo, monospace; fill: #8b949e }
+      .val   { font: 700 11px ui-monospace, "SF Mono", Menlo, monospace; fill: #34d399 }
+      .cap   { font: 600 11px ui-monospace, "SF Mono", Menlo, monospace; fill: #8b949e; letter-spacing: .12em }
+      .dot   { fill: #34d399; stroke: #0d1117; stroke-width: 1.5 }
+    </style>
+  </defs>
+
+  <text x="200" y="20" text-anchor="middle" class="cap">LANGUAGE PROFICIENCY</text>
+
+  <!-- pentagon rings -->
+  <polygon class="grid" points="200,152.5 230.9,174.9 219.1,211.3 180.9,211.3 169.1,174.9"/>
+  <polygon class="grid" points="200,120 261.8,164.9 238.2,237.6 161.8,237.6 138.2,164.9"/>
+  <polygon class="grid" points="200,87.5 292.7,154.9 257.3,263.9 142.7,263.9 107.3,154.9"/>
+  <polygon class="grid" points="200,55 323.6,144.8 276.4,290.2 123.6,290.2 76.4,144.8" stroke-opacity=".5"/>
+
+  <line class="spoke" x1="200" y1="185" x2="200"   y2="55"/>
+  <line class="spoke" x1="200" y1="185" x2="323.6" y2="144.8"/>
+  <line class="spoke" x1="200" y1="185" x2="276.4" y2="290.2"/>
+  <line class="spoke" x1="200" y1="185" x2="123.6" y2="290.2"/>
+  <line class="spoke" x1="200" y1="185" x2="76.4"  y2="144.8"/>
+
+  <polygon points="200,61.5 298.9,152.9 255,260.7 148,256.5 123.3,160.1"
+           fill="url(#lfill)" stroke="#34d399" stroke-width="2" stroke-linejoin="round"/>
+
+  <circle class="dot" cx="200"   cy="61.5"  r="3.6"/>
+  <circle class="dot" cx="298.9" cy="152.9" r="3.6"/>
+  <circle class="dot" cx="255"   cy="260.7" r="3.6"/>
+  <circle class="dot" cx="148"   cy="256.5" r="3.6"/>
+  <circle class="dot" cx="123.3" cy="160.1" r="3.6"/>
+
+  <text x="200" y="44"  text-anchor="middle" class="lbl">Python</text>
+  <text x="200" y="32"  text-anchor="middle" class="val">95</text>
+
+  <text x="333" y="138" text-anchor="start"  class="lbl">SQL</text>
+  <text x="333" y="152" text-anchor="start"  class="val">80</text>
+
+  <text x="288" y="306" text-anchor="start"  class="lbl">Java</text>
+  <text x="288" y="320" text-anchor="start"  class="val">72</text>
+
+  <text x="112" y="306" text-anchor="end"    class="lbl">TypeScript</text>
+  <text x="112" y="320" text-anchor="end"    class="val">68</text>
+
+  <text x="66"  y="138" text-anchor="end"    class="lbl">HTML / CSS</text>
+  <text x="66"  y="152" text-anchor="end"    class="val">62</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 370" width="400" height="370" role="img" aria-label="Skill radar: AI and ML 92, agentic and RAG 90, backend and APIs 86, computer vision 80, cloud and CI/CD 76, data and SQL 74">
+  <title>Technical competencies</title>
+
+  <!-- Transparent background and mid-tone strokes, so this reads correctly
+       on both the light and dark GitHub themes without a second file. -->
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.28"/>
+    </linearGradient>
+    <style>
+      .grid  { fill: none; stroke: #8b949e; stroke-opacity: .32; stroke-width: 1 }
+      .spoke { stroke: #8b949e; stroke-opacity: .26; stroke-width: 1 }
+      .lbl   { font: 600 12px ui-monospace, "SF Mono", Menlo, monospace; fill: #8b949e }
+      .val   { font: 700 11px ui-monospace, "SF Mono", Menlo, monospace; fill: #22d3ee }
+      .cap   { font: 600 11px ui-monospace, "SF Mono", Menlo, monospace; fill: #8b949e; letter-spacing: .12em }
+      .dot   { fill: #22d3ee; stroke: #0d1117; stroke-width: 1.5 }
+    </style>
+  </defs>
+
+  <text x="200" y="20" text-anchor="middle" class="cap">TECHNICAL COMPETENCIES</text>
+
+  <!-- concentric hexagon rings: 25 / 50 / 75 / 100 -->
+  <polygon class="grid" points="200,152.5 228.1,168.75 228.1,201.25 200,217.5 171.9,201.25 171.9,168.75"/>
+  <polygon class="grid" points="200,120 256.3,152.5 256.3,217.5 200,250 143.7,217.5 143.7,152.5"/>
+  <polygon class="grid" points="200,87.5 284.4,136.25 284.4,233.75 200,282.5 115.6,233.75 115.6,136.25"/>
+  <polygon class="grid" points="200,55 312.6,120 312.6,250 200,315 87.4,250 87.4,120" stroke-opacity=".5"/>
+
+  <!-- spokes -->
+  <line class="spoke" x1="200" y1="185" x2="200"   y2="55"/>
+  <line class="spoke" x1="200" y1="185" x2="312.6" y2="120"/>
+  <line class="spoke" x1="200" y1="185" x2="312.6" y2="250"/>
+  <line class="spoke" x1="200" y1="185" x2="200"   y2="315"/>
+  <line class="spoke" x1="200" y1="185" x2="87.4"  y2="250"/>
+  <line class="spoke" x1="200" y1="185" x2="87.4"  y2="120"/>
+
+  <!-- the plotted shape -->
+  <polygon points="200,65.4 301.3,126.5 296.8,240.9 200,289 114.4,234.4 116.7,136.9"
+           fill="url(#fill)" stroke="#22d3ee" stroke-width="2" stroke-linejoin="round"/>
+
+  <circle class="dot" cx="200"   cy="65.4"  r="3.6"/>
+  <circle class="dot" cx="301.3" cy="126.5" r="3.6"/>
+  <circle class="dot" cx="296.8" cy="240.9" r="3.6"/>
+  <circle class="dot" cx="200"   cy="289"   r="3.6"/>
+  <circle class="dot" cx="114.4" cy="234.4" r="3.6"/>
+  <circle class="dot" cx="116.7" cy="136.9" r="3.6"/>
+
+  <!-- axis labels, each pushed clear of its spoke -->
+  <text x="200" y="44"  text-anchor="middle" class="lbl">AI / ML · LLMs</text>
+  <text x="200" y="32"  text-anchor="middle" class="val">92</text>
+
+  <text x="322" y="110" text-anchor="start"  class="lbl">Agentic / RAG</text>
+  <text x="322" y="97"  text-anchor="start"  class="val">90</text>
+
+  <text x="322" y="262" text-anchor="start"  class="lbl">Backend / APIs</text>
+  <text x="322" y="276" text-anchor="start"  class="val">86</text>
+
+  <text x="200" y="332" text-anchor="middle" class="lbl">Computer Vision</text>
+  <text x="200" y="346" text-anchor="middle" class="val">80</text>
+
+  <text x="78"  y="262" text-anchor="end"    class="lbl">Cloud / CI-CD</text>
+  <text x="78"  y="276" text-anchor="end"    class="val">76</text>
+
+  <text x="78"  y="110" text-anchor="end"    class="lbl">Data / SQL</text>
+  <text x="78"  y="97"  text-anchor="end"    class="val">74</text>
+</svg>

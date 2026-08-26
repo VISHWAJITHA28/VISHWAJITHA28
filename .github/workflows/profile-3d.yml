@@ -1,0 +1,60 @@
+# Generates the isometric 3D contribution calendar.
+#
+# WHERE THIS GOES
+#   In the VISHWAJITHA28/VISHWAJITHA28 repo, at:
+#     .github/workflows/profile-3d.yml
+#
+# WHAT IT DOES
+#   Renders your contribution graph as an isometric 3D city and commits the
+#   SVGs into a `profile-3d-contrib/` folder in this same repo — unlike the
+#   snake, which pushes to a separate `output` branch. That is why the README
+#   points at ./profile-3d-contrib/... with a relative path.
+#
+#   Several variants are produced. The README uses profile-night-rainbow.svg;
+#   swap the filename if you prefer another:
+#     profile-green-animate.svg   profile-season-animate.svg
+#     profile-night-view.svg      profile-night-green.svg
+#     profile-gitblock.svg
+#
+# FIRST RUN
+#   Nothing appears until it has run once. Repo → Actions →
+#   "Generate 3D contribution calendar" → Run workflow. Then hard-refresh.
+#
+# IF IT FAILS
+#   Settings → Actions → General → Workflow permissions must be
+#   "Read and write permissions", or the commit back to the repo is rejected.
+
+name: Generate 3D contribution calendar
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render the calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit the SVGs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          # No change on a quiet day is normal, not a failure — without this
+          # guard the whole workflow goes red whenever you haven't committed.
+          git diff --staged --quiet || git commit -m "Update 3D contribution calendar"
+          git push
