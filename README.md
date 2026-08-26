@@ -44,7 +44,9 @@ I build AI/ML systems and take them the whole way — prototype through to produ
 
 <img src="https://skillicons.dev/icons?i=py,java,fastapi,flask,pytorch,sklearn,tensorflow,opencv,azure,gcp,docker,postgres,mysql,redis,nextjs,git&perline=8" alt="tech stack" />
 
-`LangGraph` · `LangChain` · `RAG` · `Agentic Workflows` · `ChromaDB` · `RDKit` · `HL7 FHIR R4` · `DICOM` · `Gemini` · `MedGemma`
+`LangGraph` · `LangChain` · `RAG Pipelines` · `Agentic Workflows` · `Multi-Agent Systems` · `Prompt Engineering` · `Vector Search` · `Fine-tuning`
+
+`GPT` · `Claude` · `Gemini` · `LLaMA` · `MedGemma`
 
 </div>
 
