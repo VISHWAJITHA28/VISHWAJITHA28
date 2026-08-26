@@ -1,10 +1,11 @@
 <div align="center">
 
-<!-- Two files, switched by the viewer's theme — a portrait in dark dots
-     disappears on a dark background, and vice versa. -->
+<!-- Colour halftone, sampled per dot from the photo. Two files: the dark
+     variant lifts every channel toward white so the hair does not vanish
+     into a dark background. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./portrait-dark.svg">
-  <img src="./portrait-light.svg" width="230" alt="Byru Vishwajitha" />
+  <img src="./portrait-light.svg" width="330" alt="Byru Vishwajitha" />
 </picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&height=48&lines=BYRU+VISHWAJITHA;AGENTIC+%26+GENERATIVE+AI;RAG+%C2%B7+COMPUTER+VISION;PROTOTYPE+-%3E+PRODUCTION" alt="Byru Vishwajitha, agentic and generative AI" />
