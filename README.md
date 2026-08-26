@@ -7,7 +7,7 @@
   <img src="./portrait-light.svg" width="230" alt="Byru Vishwajitha" />
 </picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&height=48&lines=BYRU+VISHWAJITHA;AGENTIC+%26+GENERATIVE+AI;RAG+%C2%B7+COMPUTER+VISION;PROTOTYPE+-%3E+PRODUCTION" alt="Byru Vishwajitha — agentic and generative AI" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&height=48&lines=BYRU+VISHWAJITHA;AGENTIC+%26+GENERATIVE+AI;RAG+%C2%B7+COMPUTER+VISION;PROTOTYPE+-%3E+PRODUCTION" alt="Byru Vishwajitha, agentic and generative AI" />
 
 <p>
 <a href="https://www.linkedin.com/in/vishwajithabyru28/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -24,6 +24,10 @@
 
 ## `~/` whoami
 
+Hi, I'm Byru Vishwajitha. I build AI systems that sit somewhere between machine learning and medicine, and I like taking them the whole way, from the first messy prototype to something actually running in production with a pipeline behind it.
+
+I do this because I enjoy making things I wished already existed. Not for competitions, not for leaderboards, mostly for the small satisfaction of watching something work that didn't work yesterday.
+
 ```
 $ whoami
 byru-vishwajitha  ·  Generative AI Intern @ Ve Lyra Labs
@@ -35,8 +39,6 @@ An assistant that must not invent a citation.
 A model that must say what it doesn't know.
 A record that must not cross a hospital boundary.
 ```
-
-I build AI/ML systems and take them the whole way — prototype through to production, including the CI/CD that gets them there. The through-line is **grounding**: making a model cite its source instead of guessing.
 
 ## `~/` toolbox
 
@@ -65,7 +67,7 @@ I build AI/ML systems and take them the whole way — prototype through to produ
 <td width="50%" valign="top">
 
 ### 🧬 [Drug_discovery](https://github.com/VISHWAJITHA28/Drug_discovery)
-Ten-agent **LangGraph** pipeline for pre-clinical screening — thousands of compounds narrowed to **10 candidate leads**. Targets, structures, generation, docking, ADMET, and an RL loop that stops itself when rewards plateau.
+Ten-agent **LangGraph** pipeline for pre-clinical screening that narrows thousands of compounds down to **10 candidate leads**. Targets, structures, generation, docking, ADMET, and an RL loop that stops itself once rewards plateau.
 
 `LangGraph` `PyTorch` `RDKit` `FastAPI`
 
@@ -73,7 +75,7 @@ Ten-agent **LangGraph** pipeline for pre-clinical screening — thousands of com
 <td width="50%" valign="top">
 
 ### 🩻 [diagnostic-decision-support](https://github.com/VISHWAJITHA28/diagnostic-decision-support)
-Multi-agent clinical decision support — chest X-ray analysis, ICD-10 differentials, PubMed-cited evidence via hybrid FAISS + BM25. A separate safety agent can veto any output.
+Multi-agent clinical decision support. Chest X-ray analysis, ICD-10 differentials, and PubMed-cited evidence through a hybrid FAISS and BM25 index. A separate safety agent can veto any output.
 
 `FastAPI` `LLaMA-3` `FAISS` `Docker`
 
@@ -83,7 +85,7 @@ Multi-agent clinical decision support — chest X-ray analysis, ICD-10 different
 <td width="50%" valign="top">
 
 ### 📚 [medresearch-agent](https://github.com/VISHWAJITHA28/medresearch-agent)
-Medical paper analyzer — summaries, evidence scoring, multi-paper synthesis. The chatbot answers **only** from your uploads, with citations.
+Medical paper analyzer that gives you summaries, evidence scoring, and synthesis across several papers at once. The chatbot answers **only** from your uploads, with citations.
 
 `FastAPI` `Gemini` `ChromaDB`
 
@@ -91,7 +93,7 @@ Medical paper analyzer — summaries, evidence scoring, multi-paper synthesis. T
 <td width="50%" valign="top">
 
 ### 💪 [fitness-plan-generator](https://github.com/VISHWAJITHA28/fitness-plan-generator)
-Training plans that adapt to health conditions — arthritis, asthma, diabetes — not just to goals, with nutrition and weight tracking.
+Training plans that adapt to health conditions like arthritis, asthma and diabetes, not just to goals, with nutrition and weight tracking.
 
 `Flask` `React` `Chart.js`
 
@@ -109,7 +111,7 @@ ML credit scoring (0–1000) for DeFi wallets from Aave V2 history, across six b
 <td width="50%" valign="top">
 
 ### ⛓️ [Wallet_Risk_Scoring](https://github.com/VISHWAJITHA28/Wallet_Risk_Scoring)
-Risk scoring for Ethereum wallets from Compound V2 lending activity, pulled from The Graph.
+Risk scoring for Ethereum wallets from Compound V2 lending activity, pulled from The Graph subgraph.
 
 `Python` `The Graph`
 
@@ -121,7 +123,7 @@ Risk scoring for Ethereum wallets from Compound V2 lending activity, pulled from
 
 **Generative AI Intern** · *Ve Lyra Labs* · Mar 2026 – present
 
-Enterprise healthcare-AI platform scaling into a multi-tenant B2B service. Built a **HL7 FHIR R4** EHR, a **DICOM** diagnostic tool, an agentic clinical research assistant, and hospital intelligence dashboards.
+Enterprise healthcare AI platform scaling into a multi-tenant B2B service. Built a **HL7 FHIR R4** EHR, a **DICOM** diagnostic tool, an agentic clinical research assistant, and hospital intelligence dashboards.
 
 ```
 impact/   85% cut in clinician scan-review time
@@ -130,17 +132,18 @@ impact/   85% cut in clinician scan-review time
 
 built/    schema-per-tenant isolation in PostgreSQL, routed at runtime
           per-module JWT auth with a verified module claim
-          role-based portals — patient, doctor, admin, pharmacy
+          role-based portals for patient, doctor, admin, pharmacy
           azure CI/CD, prototype through to live production
 
-found/    an unauthenticated endpoint returning full patient rows —
-          password hashes and live OTPs. a takeover path, closed.
-          cross-tenant access on the FHIR routes, closed — answering
-          404 not 403, so a guessed UUID can't become an oracle.
+found/    an unauthenticated endpoint returning full patient rows,
+          password hashes and live OTPs included. a takeover path,
+          closed. cross-tenant access on the FHIR routes, closed by
+          answering 404 not 403, so a guessed UUID can't become an
+          oracle.
 ```
 
 **Machine Learning Intern** · *SDK Technologies* · Jan – Jun 2025
-MobileNetV2 + TensorFlow Lite vision system, **40+ produce classes at 98% accuracy**, with OpenCV pipelines for real-time preprocessing and on-device inference.
+MobileNetV2 and TensorFlow Lite vision system recognising **40+ produce classes at 98% accuracy**, with OpenCV pipelines for real-time preprocessing and on-device inference.
 
 **System Infrastructure Automation Intern** · *Abhyasana Technologies* · May – Jul 2025
 Server-client architecture, web server setup, load balancing, cloud deployment.
@@ -162,8 +165,8 @@ Server-client architecture, web server setup, load balancing, cloud deployment.
 
 ## `~/` credentials
 
-**B.Tech — CSE (AIML)** · Kakatiya Institute of Science and Technology · 2026
-**Certified AgentForce Specialist** — Salesforce AI Agents · Aug 2025
+**B.Tech, CSE (AIML)** · Kakatiya Institute of Science and Technology · 2026
+**Certified AgentForce Specialist** · Salesforce AI Agents · Aug 2025
 
 <div align="center">
 
