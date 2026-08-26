@@ -24,7 +24,7 @@
 
 ## `~/` whoami
 
-Hi, I'm Byru Vishwajitha. I build AI systems that sit somewhere between machine learning and medicine, and I like taking them the whole way, from the first messy prototype to something actually running in production with a pipeline behind it.
+Hi, I'm Byru Vishwajitha. I take things from development to deployment, the whole way, from the first messy prototype to something actually live with a pipeline behind it.
 
 I do this because I enjoy making things I wished already existed. Not for competitions, not for leaderboards, mostly for the small satisfaction of watching something work that didn't work yesterday.
 
