@@ -168,7 +168,7 @@ Server-client architecture, web server setup, load balancing, cloud deployment.
 <div align="center">
 
 ```
-01110011 01110100 01100001 01111001  01100011 01110101 01110010 01101001 01101111 01110101 01110011
+01110011 01110100 01100001 01111001 00100000 01100011 01110101 01110010 01101001 01101111 01110101 01110011
 ```
 
 <sub>built things I wanted to exist · <a href="mailto:byruvishwajitha@gmail.com">say hello</a></sub>
