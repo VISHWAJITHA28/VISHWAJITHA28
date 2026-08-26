@@ -44,7 +44,7 @@ A record that must not cross a hospital boundary.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,java,fastapi,flask,pytorch,sklearn,tensorflow,opencv,azure,gcp,docker,postgres,mysql,redis,nextjs,git&perline=8" alt="tech stack" />
+<img src="https://skillicons.dev/icons?i=py,java,fastapi,flask,pytorch,sklearn,tensorflow,opencv,azure,gcp,docker,postgres,mysql,redis,nextjs,git&theme=dark&perline=8" alt="tech stack" />
 
 `LangGraph` · `LangChain` · `RAG Pipelines` · `Agentic Workflows` · `Multi-Agent Systems` · `Prompt Engineering` · `Vector Search` · `Fine-tuning`
 
@@ -152,10 +152,10 @@ Server-client architecture, web server setup, load balancing, cloud deployment.
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=VISHWAJITHA28&show_icons=true&hide_border=true&count_private=true&theme=transparent&title_color=22d3ee&icon_color=34d399&text_color=8b949e" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWAJITHA28&layout=compact&hide_border=true&langs_count=8&theme=transparent&title_color=22d3ee&text_color=8b949e" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=VISHWAJITHA28&show_icons=true&hide_border=true&count_private=true&theme=tokyonight&title_color=22d3ee&icon_color=34d399&text_color=a9b6cc&bg_color=0d1117" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VISHWAJITHA28&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&title_color=22d3ee&text_color=a9b6cc&bg_color=0d1117" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=VISHWAJITHA28&hide_border=true&background=00000000&stroke=8b949e&ring=22d3ee&fire=34d399&currStreakLabel=22d3ee&sideLabels=8b949e&dates=8b949e" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=VISHWAJITHA28&hide_border=true&background=0D1117&stroke=1f2b3d&ring=22d3ee&fire=34d399&currStreakLabel=22d3ee&sideLabels=a9b6cc&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3" />
 
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
 
