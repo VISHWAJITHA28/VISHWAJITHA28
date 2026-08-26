@@ -11,6 +11,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&height=48&lines=BYRU+VISHWAJITHA;AGENTIC+%26+GENERATIVE+AI;RAG+%C2%B7+COMPUTER+VISION;PROTOTYPE+-%3E+PRODUCTION" alt="Byru Vishwajitha, agentic and generative AI" />
 
 <p>
+<a href="https://byruvishwajitha-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-5FE3B8?style=for-the-badge&logo=vercel&logoColor=0d1117" /></a>
 <a href="https://www.linkedin.com/in/vishwajithabyru28/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:byruvishwajitha@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/VISHWAJITHA28"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -136,11 +137,9 @@ built/    schema-per-tenant isolation in PostgreSQL, routed at runtime
           role-based portals for patient, doctor, admin, pharmacy
           azure CI/CD, prototype through to live production
 
-found/    an unauthenticated endpoint returning full patient rows,
-          password hashes and live OTPs included. a takeover path,
-          closed. cross-tenant access on the FHIR routes, closed by
-          answering 404 not 403, so a guessed UUID can't become an
-          oracle.
+secured/  tenant isolation and role-aware access reviewed end to end,
+          with automated tests that fail if any route becomes reachable
+          without authentication.
 ```
 
 **Machine Learning Intern** · *SDK Technologies* · Jan – Jun 2025
